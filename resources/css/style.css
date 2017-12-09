@@ -1,0 +1,29 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+
+}
+
+.container {
+  width: 960px;
+
+}
+
+#logo {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+#logo p {
+  margin: .66rem 0;
+  color: white;
+}
+
+#logo img {
+  height: 1.5rem;
+  margin-left: .5rem;
+  margin-right: 1rem;
+}
