@@ -5,8 +5,10 @@ html {
 }
 
 .container {
+  display: flex;
   width: 960px;
-  justify-content: center;
+  flex-direction: column;
+
 }
 
 header {
@@ -39,8 +41,6 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   height: 25rem;
-  position: relative;
-  z-index: 1;
 
 }
 
@@ -52,8 +52,9 @@ header {
   padding-left: 3rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  margin-top: 9rem;
+  position: absolute;
   z-index: 2;
+  margin-top: 9rem;
 }
 
 .arrival {
@@ -63,4 +64,53 @@ header {
 .features {
   font-size: 2rem;
   margin-top: .25rem;
+}
+
+
+nav {
+  display: inline-flex;
+  background-color: firebrick;
+  width: 100%;
+  justify-content: space-around;
+
+
+}
+
+nav a {
+  color: white;
+  margin: .75rem;
+  text-decoration: none;
+}
+
+
+
+.container .gallery {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+
+}
+
+.item {
+  display: flex;
+  height: 13rem;
+  width: 30%;
+  border: 4px solid black;
+
+
+}
+
+.item img {
+  height: 9rem;
+  justify-content: center;
+
+}
+
+.item h6 {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: .5rem;
+  text-align: center;
+
 }
