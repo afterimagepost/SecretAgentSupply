@@ -112,12 +112,18 @@ nav a {
 }
 
 .item img {
-  height: 9rem;
+  max-height: 9rem;
   width: auto;
-  padding: 2rem;
+  padding: 2rem 0 2rem 0;
+}
+
+
+.pen,
+.watch,
+.glasses {
+  display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .item h6 {
