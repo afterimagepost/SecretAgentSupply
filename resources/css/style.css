@@ -1,6 +1,7 @@
 html {
   font-size: 18px;
   font-family: Helvetica;
+  background-color: white;
 }
 
 .container {
@@ -59,25 +60,29 @@ html {
   margin-top: .25rem;
 }
 
+@media only screen and (max-width: 1024px) {
+
+}
+
 /*nav bar*/
 
 .nav-bar {
-  display: flex;
   background-color: firebrick;
   width: 100%;
   height: 2.5rem;
 
-
 }
-nav .container {
+
+nav {
+  display: flex;
   justify-content: space-between;
+
 }
 
 nav a {
   color: white;
   padding: .75rem 0 .75rem 0;
   text-decoration: none;
-
 
 }
 
@@ -128,13 +133,14 @@ nav a {
   display: flex;
   margin-top: 3rem;
   margin-bottom: 4rem;
+  justify-content: space-between;
 
 }
 
 .infobox {
   width: 35%;
-  margin: auto;
-  justify-content: space-between;
+
+
 }
 
 .infobox h6{
